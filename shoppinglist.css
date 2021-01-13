@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    margin-top: 10px;
+    background-color: powderblue;
+}
+h1 {
+    display: inline;
+	position: relative;
+	font: 50px Helvetica, Sans-Serif;
+	letter-spacing: 5px;
+    color: rgba(0,0,255,0.5); 
+}
+div {
+    margin-bottom: 20px;
+}
+h1:after {
+	content: "Your Shopping List";
+	position: absolute; left: 5; top: 2px;
+	color: rgba(255,0,0,0.5);   
+}
+#btn {
+    text-align: center;
+}
+button {
+    font-size: x-large;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #e7e7e7;
+}
+#add-btn:hover {
+    background-color : rgb(80, 207, 80);
+    color: white;
+    border-color: rgb(80, 207, 80);
+    border-width: 2px;
+}   
+#update-btn:hover {
+    background-color : orange;
+    color: white;
+    border-color: orange;
+    border-width: 2px;
+}
+#remove-btn:hover {
+    background-color : red;
+    color: white;
+    border-color: red;
+    border-width: 2px;
+}
+input {
+    font-size: x-large;
+    margin: 10px;
+}
+ul {
+    display: flexbox;
+    padding: 0;
+}
+li {
+    font-size: x-large;
+    width : 50%;
+    background-color: white;
+    padding: 1%;
+    list-style-type : none;
+    margin:15px auto 15px auto;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: black;
+}
+.bin {
+    background-image: url("icons8-remove-24.png");
+    width: 24px;
+    height: 24px;
+    float: right;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+ }
+.copyright{ 
+    color: rgba(0, 0, 0, 0.75); 
+    text-shadow: 0 1px rgba(255, 255, 255, 0.2);
+}
