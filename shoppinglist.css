@@ -16,7 +16,7 @@ div {
 h1:after {
 	content: "Your Shopping List";
     position: absolute; 
-    left: 5; 
+    left: 5px; 
     top: 2px;
 	color: rgba(255,0,0,0.5);   
 }
